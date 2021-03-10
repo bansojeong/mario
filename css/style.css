@@ -166,6 +166,14 @@
         margin-left: 40px;
         margin-top: 87px;
     }
+    .warp{
+        width: 100%;
+    }
+    .content{
+        float:left;
+        width: 27%;
+        margin: 0 2%;
+    }
 }
 
 /* media 414 */
@@ -509,58 +517,50 @@ a:hover + div#content {
 }
 
 /* 섹션 3 */
-
-/* .section03 {
-    width: 100%;
-    background-image: url('../images/bg47.png');
+.section03{
+    background:url('../images/bg47.png');
+    background-size: 100%;
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    position: relative;
-} */
-
-.bg{
-    width:100%;
-    padding:20px 0;
-    background-image: url('../images/bg47.png');
+    padding: 8% 0;
 }
 
-.warp {
-    width: 85%;
-    margin-left: 8%;
-    padding: 33.5% 0;
-    background-image: url('../images/bg50.png');
-    float: left;
+/* .warp{
+    width: 1680px;
+    margin: 0 auto;
+} */
+
+.content img{
+    width:100%;
 }
 
 .content{
-    width: 30%;
-    height: 200px;
-    margin:1% 1%;
-    /* background:bisque; */
-    float: left;
+    float:left;
+    /* width: 30%; */
+    margin-left:3.5%;
 }
 
-.content img{
-    margin-top: 25%;
-    margin-left: 5%;
+.content-box{
+    width:90%;
+    /* float:left; */
+    margin: 0 auto;
+    background:url('../images/bg50.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 30% 0;
 }
-
-.bot-pic{
-    width: 100%;
-}
-.clear{
-    clear:both;
+.margin-left-right{
+    padding: 0 2%;
 }
 
 .text-center{
-    text-align:center;
+    width: 100%;
+    margin-top: -8%;
+    text-align: center;
 }
 
-.img img{
-    width: 50%;
+.text-center img{
+    width: 60%;
 }
-
 
 /*섹션4*/
 
